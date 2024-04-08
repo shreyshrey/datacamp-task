@@ -42,23 +42,23 @@ Prerequisite and relevant resources:
 ## Lesson 2.2: Building a CNN model
 
 - Learner will be able to construct a CNN model for the phishing website detection.
-- Learner will be able to define the architecture of a CNN, including convolutional layers and fully connected layers, using deep learning library like TensorFlow.
+- Learner will be able to define the architecture of a <code>CNN</code>, including <code>convolutional layers</code> and fully connected layers, using deep learning library like <code>TensorFlow</code>.
 - Keywords introducedL CNN, convolutional layer, TensorFlow
 
 ## Lesson 2.3: Training the CNN Model
 
 - Learner will be able to implement the training steps for the CNN model using the phishing website dataset.
 - Learner will be able to use use TensorFlow functions to compile the model and define loss functions.
-- Learner will be able to optimise the training process using Adam optimiser tf.keras.optimizers.Adam()
+- Learner will be able to optimise the training process using Adam optimiser <code>tf.keras.optimizers.Adam()</code>
 - Learner will understand how to adjust the models learning process using callbacks.
 - Keywords functions: Adam(), optimiser, callbacks
 
 ## Lesson 2.4: Evaluating the CNN Model
 
-- Learner will be able apply TensorFlow function model.evaluate()
-- Learner will be able to interpret the model's performance using metrics such as accuracy, precision, recall and F1-score using tf.keras.metrics.Precision(), tf.keras.metrics.Recall() and custom F1-score.
+- Learner will be able apply TensorFlow function <code>model.evaluate()</code>
+- Learner will be able to interpret the model's performance using metrics such as accuracy, precision, recall and F1-score using <code>tf.keras.metrics.Precision()</code>, <code>tf.keras.metrics.Recall()</code> and custom <code>F1-score</code>.
 - Learner will be able to visualise the model's performance, plotting ROC curve and analysing the confusion matrix.
-- Keywords introduced: precision, recall, f1-score, roc curve
+- Keywords introduced: model.evaluate(), precision, recall, f1-score, roc curve
 
 # Chapter 3: Advanced Deep Learning Techniques for Cybersecurity  
 
@@ -69,9 +69,9 @@ Prerequisite and relevant resources:
 
 ## Lesson 3.2: Applying BERT for Phishing Email Detection
 
-- Learner will be able to load a pre-trained BERT model to use it to extract features from email text data.
+- Learner will be able to load a pre-trained <code>BERT</code> model to use it to extract features from email text data.
 - Learner will be able to add a classification layer to BERT and train the layer on phishing email dataset.
-- Keywords introduced: BERT
+- Keywords introduced: <code>BERT</code>
 
 ## Lesson 3.3: Fine-Tuning BERT for enhanced detection
 
