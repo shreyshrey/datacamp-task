@@ -4,7 +4,8 @@ Lesson 3.2: Applying BERT for Phishing Email Detection
 
 - Learner will be able to load a pre-trained BERT model to use it to extract features from email text data.
 
-Exercise - Context
+Exercise - Context  
+
 You are part of cybersecurity team, aiming to improve your company's email filtering system by identifying phishing attempting using deep learning. The first step is to understand how to extract features from email texts using pre-trained BERT model. These features are vital as they capture the essence of the text data, which can later be used for classification.
 
 Instructions
@@ -16,7 +17,7 @@ Instructions
 - Print the features: "email_features" 
 
 
-```
+```python
 # Import necessary libraries
 from transformers import BertModel, BertTokenizer
 import torch
@@ -39,7 +40,6 @@ with torch.no_grad(): # ensure model is in inference mode
 features = outputs.____
 
 # take the mean of all the token embeddings as the email's feature
-
 email_features = features.mean(dim=1)
 print(email_features)
 
@@ -47,8 +47,10 @@ print(email_features)
 
 
 Going forward, learners can be encouraged to try out the fine tuned BERT model which was trained on phishing dataset, this model is capable of detecting phishing in its four most common forms: URLs, Emails, SMS messages and websites.
+
+```python
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+tokenizer = AutoTokenizer.from_pretrained("ealvaradob/bert-finetuned-phishing")
+model = AutoModelForSequenceClassification.from_pretrained("ealvaradob/bert-finetuned-phishing")
 ```
-# from transformers import AutoTokenizer, AutoModelForSequenceClassification
-# tokenizer = AutoTokenizer.from_pretrained("ealvaradob/bert-finetuned-phishing")
-# model = AutoModelForSequenceClassification.from_pretrained("ealvaradob/bert-finetuned-phishing")
-```
+Read more on the model: [ealvaradob/bert-finetuned-phishing](https://huggingface.co/ealvaradob/bert-finetuned-phishing#:~:text=Framework%20versions-,BERT%20FINETUNED%20ON%20PHISHING%20DETECTION,Loss%3A%200.1953 "phishing model title")

@@ -18,7 +18,8 @@ Prerequisite and relevant resources:
 
 ## Lesson 1.2: Introduction to Deep Learning in Cybersecurity
 
-- Learner will understand the basics of deep learning and its potential applications in the cybersecurity domain.
+- Learner will understand the basics of deep learning.
+- Learner will be able to understand the potential applications of DL in the cybersecurity domain.
 - Learner will be able to explore example of how deep learning is applied to solve cybersecurity problems.
 - Key topics: cybersecurity applications
 
