@@ -15,6 +15,8 @@ Instructions
 - Extract the features "last_hidden_state" from the model output
 - Print the features: "email_features" 
 
+
+```
 # Import necessary libraries
 from transformers import BertModel, BertTokenizer
 import torch
@@ -41,9 +43,12 @@ features = outputs.____
 email_features = features.mean(dim=1)
 print(email_features)
 
+```
 
 
 Going forward, learners can be encouraged to try out the fine tuned BERT model which was trained on phishing dataset, this model is capable of detecting phishing in its four most common forms: URLs, Emails, SMS messages and websites.
+```
 # from transformers import AutoTokenizer, AutoModelForSequenceClassification
 # tokenizer = AutoTokenizer.from_pretrained("ealvaradob/bert-finetuned-phishing")
 # model = AutoModelForSequenceClassification.from_pretrained("ealvaradob/bert-finetuned-phishing")
+```
