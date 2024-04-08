@@ -14,7 +14,6 @@ Instructions
 - Use the tokenizer to process the given <code>sample_email</code> text, convert it into a suitable format.
 - Pass the dictionary of tokens through the BERT model <code>**token</code>
 - Extract the features <code>last_hidden_state</code> from the model output
-- Print the features: <code>email_features</code>
 
 
 ```python
@@ -44,6 +43,7 @@ email_features = features.mean(dim=1)
 print(email_features)
 ```
 
+<code>BertForSequenceClassification</code> can be introduced to classify the text data, further explaining the effectiveness of the model can be improved by fine-tuning it on a labeled dataset of emails text, where it can learn the specific characteristics of phishing vs. legitimate emails.  
 
 Going forward, learners can be encouraged to try out the fine tuned BERT model which was trained on phishing dataset, this model is capable of detecting phishing in its four most common forms: URLs, Emails, SMS messages and websites.
 

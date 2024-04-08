@@ -26,9 +26,9 @@ Prerequisite and relevant resources:
 ## Lesson 1.3: Preprocessing Data
 
 - Learner will learn the relevance of preprocessing in cybersecurity data for deep learning.
-- Learner will understand why data needs to be preprocessed for deep learning models.
+- Learner will understand why data needs to be preprocessed for deep learning models, such as normalisation.
 - Learner will perform simple preprocessing steps on cybersecurity data to prepare it for the analysis.
-- Keywords: preprocessing, data cleaning, Normalisation
+- Keywords: preprocessing, data cleaning, normalisation
 
 # Chapter 2: Building and Training Deep Learning Models for Cybersecurity  
 
@@ -71,17 +71,20 @@ Prerequisite and relevant resources:
 
 - Learner will be able to load a pre-trained BERT model to use it to extract features from email text data.
 - Learner will be able to add a classification layer to BERT and train the layer on phishing email dataset.
+- Keywords introduced: BERT
 
 ## Lesson 3.3: Fine-Tuning BERT for enhanced detection
 
 - Learner will be introduced to the concept of unfreeze layer and able to apply to the BERT model.
 - Learner will able to prevent overfitting during the fine-tuning process.
 - Learner will know how to validate the model's performance on unseen data.
+- Keywords introduced: overfitting, fine-tuning
 
 ## Lesson 3.4: Evaluating the model
 
 - Learner will be able to evaluate the model's effectiveness in detecting phishing using metics like precision, recall and F1-score.
 - Learner will be introduced to ways deploying this model in real-world environment such as AWS cloud, ensuring reliability and scalability.
+- Keywords introduced: AWS
 
 # Chapter 4: Ethical, legal and future perspectives in deep learning for Cybersecurity  
 
@@ -95,6 +98,7 @@ Prerequisite and relevant resources:
 
 - Learner will be able to review key legal standards and regulations that impact the deployment of AI systems in cybersecurity, including GDPR.
 - Learner will analyse legal responsibilities associate with deploying AI-powered security solutions, including compliance and liability issues.
+- Keyword introduced: GDPR
 
 ## Lesson 4.3: Future Trends in Deep Learning and Cybersecurity
 
