@@ -10,11 +10,11 @@ You are part of cybersecurity team, aiming to improve your company's email filte
 
 Instructions
 
-- Load the pre-trained BERT model "bert-base-uncased" and its tokensizer "BertTokenizer" from transformer library.
-- Use the tokenizer to process the given sample_email text, convert it into a suitable format.
-- Pass the dictonary of tokens through the BERT model "**token"
+- Load the pre-trained BERT model <code>bert-base-uncased</code> and its tokensizer <code>BertTokenizer</code> from transformer library.
+- Use the tokenizer to process the given <code>sample_email</code> text, convert it into a suitable format.
+- Pass the dictionary of tokens through the BERT model <code>**token</code>
 - Extract the features <code>last_hidden_state</code> from the model output
-- Print the features: "email_features" 
+- Print the features: <code>email_features</code>
 
 
 ```python
@@ -36,13 +36,12 @@ tokens = tokenizer(____, return_tensors='pt', padding=True, truncation=True, max
 with torch.no_grad(): # ensure model is in inference mode
     outputs = model(____)
 
-# Extract the ladt hidden states (features)
+# Extract the last hidden states (features)
 features = outputs.____
 
 # take the mean of all the token embeddings as the email's feature
 email_features = features.mean(dim=1)
 print(email_features)
-
 ```
 
 
