@@ -1,7 +1,10 @@
 Prerequisite and relevant resources:
-Markup :  [Introduction to Deep Learning in Python](https://app.datacamp.com/learn/courses/introduction-to-deep-learning-in-python  "Intro to DL in Python title")__
-Markup :  [PyTorch vs Tensorflow vs Keras](https://www.datacamp.com/tutorial/pytorch-vs-tensorflow-vs-keras  "PyTorch vs Tensorflow vs Keras title")__
-Markup :  [How Does Google BERT Work?](https://www.datacamp.com/tutorial/tutorial-natural-language-processing  "How does google bert work title")__
+Markup :  [Introduction to Deep Learning in Python](https://app.datacamp.com/learn/courses/introduction-to-deep-learning-in-python  "Intro to DL in Python title")  
+
+Markup :  [PyTorch vs Tensorflow vs Keras](https://www.datacamp.com/tutorial/pytorch-vs-tensorflow-vs-keras  "PyTorch vs Tensorflow vs Keras title")  
+
+Markup :  [How Does Google BERT Work?](https://www.datacamp.com/tutorial/tutorial-natural-language-processing  "How does google bert work title")  
+
 
 
 Chapter 1: Foundations of Cybersecurity and Data Handling
