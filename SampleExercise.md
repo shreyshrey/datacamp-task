@@ -13,7 +13,7 @@ Instructions
 - Load the pre-trained BERT model "bert-base-uncased" and its tokensizer "BertTokenizer" from transformer library.
 - Use the tokenizer to process the given sample_email text, convert it into a suitable format.
 - Pass the dictonary of tokens through the BERT model "**token"
-- Extract the features "last_hidden_state" from the model output
+- Extract the features <code>last_hidden_state</code> from the model output
 - Print the features: "email_features" 
 
 
